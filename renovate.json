@@ -8,7 +8,7 @@
   "internalChecksAsSuccess": false,
   "packageRules": [
     {
-      "description": "Automerge dependency updates only through a PR with passing checks",
+      "description": "Keep automerge disabled until real repository CI exists; approval-bot checks alone are not sufficient",
       "matchUpdateTypes": [
         "major",
         "minor",
@@ -18,7 +18,7 @@
         "pinDigest",
         "lockFileMaintenance"
       ],
-      "automerge": true
+      "automerge": false
     }
   ]
 }
